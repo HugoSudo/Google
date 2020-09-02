@@ -1,14 +1,32 @@
 .logo {
     display: block;
     text-align: center;
+    margin-top: 100px;
 }
 #searchbar {
     margin: auto;
     display: block;
+    border: 1px solid grey;
+    border-radius: 10px;
+    height: 50%;
+    width: 50%;
+    padding: 2px 23px 2px 30px;
+    outline: 0;
+}
+.search-icon{
+    position: absolute;
+    top: 237px;
+    left: 220px;
+    width: 13px;
 }
 li {
     display: inline;
 }
 a {
     padding: 8px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
